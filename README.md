@@ -1,4 +1,5 @@
 # vue_web
+뷰 공부할 준비 됐습니꺄?!
 
 ## Project setup
 ```
