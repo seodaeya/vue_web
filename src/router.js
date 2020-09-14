@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Main from './views/Main.vue'
 import Api from './views/Api.vue'
+import Page2 from './views/Page2.vue'
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,14 @@ export default new VueRouter({
             path: '/',
             name: 'main',
             component: Main
+        }, {
+            path: '/main',
+            name: 'main',
+            component: Main
+        }, {
+            path: '/page2',
+            name: 'page2',
+            component: Page2
         }, {
             path: '/api',
             name: 'api',
